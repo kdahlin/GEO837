@@ -13,7 +13,7 @@ library(rgdal)
 library(maptools)
 
 # set your working directory
-setwd("C:/Users/kdahlin/Dropbox/MSU_GEO837/R_section/")
+setwd("YOUR WORKING DIRECTORY")
 
 # what day is it? use this to add to output file names to keep track of when you
 # made something
@@ -24,7 +24,7 @@ today <- "20181029"
 # perfect data for modern data climate)
 # the reference for this data is Fick et al 2017, which is in the 'extra'
 # readings section on D2L
-data.path <- "C:/Users/kdahlin/Dropbox/MSU_GEO837/R_section/worldclim2/"
+data.path <- "WORLDCLIM2 DATA LOCATION"
 
 # read in a file just to check it out
 in.tavg <- raster(paste0(data.path, "wc2.0_10m_tavg/wc2.0_10m_tavg_06.tif"))
