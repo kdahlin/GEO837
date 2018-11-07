@@ -9,13 +9,13 @@ library(ncdf4) # need to install this if haven't already
 library(RColorBrewer) # this one too
 
 # set your working directory
-setwd("C:/Users/kdahlin/Dropbox/MSU_GEO837/R_section/")
+setwd("YOUR WORKING DIRECTORY")
 
 # what day is it? 
 today <- format(Sys.Date(), "%Y%m%d")
 
 # looking at MODIS NDVI data downloaded from AppEEARS on 11/5/2018
-data.path <- "C:/Users/kdahlin/Dropbox/MSU_GEO837/project/appeears_poly/"
+data.path <- "YOUR APPEEARS DATA PATH"
 
 # read in the nc file (which contains all the NDVI layers and pixel quality)
 in.data <- nc_open(paste0(data.path, "MOD13Q1.006_250m_aid0001.nc"))
